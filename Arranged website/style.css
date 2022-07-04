@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.social:focus-within,.social:focus-visible,.social:focus{
+    color:#2f91a2 !important;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -14,11 +18,11 @@ button {
 }
 
 .btn:focus-within,btn:focus-visible,btn:focus{
-    background-color: #2f91a2;
+    background-color: #2f91a2 !important;
 }
 
 a:focus-within,a:focus-visible,a:focus{
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 
 a:hover {
