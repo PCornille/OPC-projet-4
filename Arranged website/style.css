@@ -13,6 +13,14 @@ button {
     outline: none!important;
 }
 
+.btn:focus-within,btn:focus-visible,btn:focus{
+    background-color: #2f91a2;
+}
+
+a:focus-within,a:focus-visible,a:focus{
+  text-decoration: underline;
+}
+
 a:hover {
     text-decoration: none;
     cursor: pointer;
